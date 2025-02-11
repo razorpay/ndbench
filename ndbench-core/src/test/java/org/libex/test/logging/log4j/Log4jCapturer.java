@@ -178,7 +178,7 @@ public class Log4jCapturer implements TestRule {
                 logger.removeAppender(appender);
             }
         } catch (RuntimeException e) {
-            e.printStackTrace();
+            
         }
     }
 
