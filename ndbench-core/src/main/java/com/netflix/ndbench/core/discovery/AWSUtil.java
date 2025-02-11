@@ -62,7 +62,7 @@ public class AWSUtil {
             try {
                 in.close();
             } catch (IOException e) {
-                e.printStackTrace();
+                
             }
         }
     }
