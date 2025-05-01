@@ -46,7 +46,7 @@ public class CassJavaDriverManagerImpl implements CassJavaDriverManager {
                 sslContext = SSLContext.getInstance("TLS");
                 sslContext.init(null,tmf.getTrustManagers(),null);
             } catch (Exception e) {
-                e.printStackTrace();
+                
             }
         SSLOptions sslOptions = RemoteEndpointAwareJdkSSLOptions.builder().withSSLContext(sslContext).build();
 
